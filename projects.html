@@ -1,0 +1,164 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore projects by Thamaga Lesego.">
+
+    <title>Projects | THAMAGA-LESEGO</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="projects-page">
+
+    <!-- Skip Link -->
+    <a href="#main" class="skip-link">
+        Skip to main content
+    </a>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar" aria-label="Main navigation">
+
+        <span class="logo">LESEGO</span>
+
+        <div class="nav-links">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="about.html" class="nav-link">About</a>
+            <a href="projects.html" class="nav-link active"
+                aria-current="page">Projects</a>
+            <a href="contact.html" class="nav-link">Contact</a>
+        </div>
+
+<button type="button" id="themeToggle"
+    class="theme-toggle" aria-pressed="false">
+    Dark Mode
+</button>
+
+    </nav>
+
+    <!-- Main Content -->
+    <main id="main">
+
+        <header class="page-header">
+            <h1>MY PROJECTS</h1>
+            <p>
+                Explore some of the skills and projects I have been learning.
+            </p>
+        </header>
+
+        
+<!-- Projects Section -->
+<section class="projects-section">
+
+    <h2>PROJECT PORTFOLIO</h2>
+
+    <p class="projects-intro">
+        These projects demonstrate my learning journey
+        and practical experience in System Development.
+    </p>
+
+    <!-- Project Filter Buttons -->
+    <div class="project-filters" aria-label="Filter projects">
+
+        <button type="button" class="filter-btn active"
+            data-filter="All">All</button>
+
+        <button type="button" class="filter-btn"
+            data-filter="HTML">HTML</button>
+
+        <button type="button" class="filter-btn"
+            data-filter="CSS">CSS</button>
+
+    </div>
+
+    <!-- JavaScript will generate project cards here -->
+    <div class="projects-grid" id="projectsGrid">
+
+    </div>
+
+</section>
+
+
+                <article class="project-card">
+
+                    <h3>Personal Website</h3>
+
+                    <p>
+                        A personal portfolio website developed
+                        using HTML and CSS to introduce myself
+                        and showcase my skills.
+                    </p>
+
+                    <p class="project-skills">
+                        Skills: HTML, CSS
+                    </p>
+
+                </article>
+
+                <article class="project-card">
+
+                    <h3>Python Programming</h3>
+
+                    <p>
+                        Learning Python programming fundamentals,
+                        including variables, data types, conditions
+                        and loops.
+                    </p>
+
+                    <p class="project-skills">
+                        Skills: Python
+                    </p>
+
+                </article>
+
+                <article class="project-card">
+
+                    <h3>Cybersecurity Learning</h3>
+
+                    <p>
+                        Learning about cybersecurity principles,
+                        online safety, passwords and protecting
+                        digital information.
+                    </p>
+
+                    <p class="project-skills">
+                        Skills: Cybersecurity
+                    </p>
+
+                </article>
+
+                <article class="project-card">
+
+                    <h3>Responsive Web Design</h3>
+
+                    <p>
+                        Creating websites that adapt to different
+                        screen sizes using CSS Flexbox, Grid
+                        and media queries.
+                    </p>
+
+                    <p class="project-skills">
+                        Skills: HTML, CSS, Responsive Design
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+    </main>
+
+       <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Thamaga Lesego. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript Connection -->
+    <script src="script.js"></script>
+
+</body>
+</html>
